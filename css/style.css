@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(19, 187, 83);
+    font:  normal 15pt Arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px5px blanchedalmond;
+}
+
+div{
+text-align: center;
+padding: 22px;
+
+
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+}
+.foto-perfil {
+
+      
+      
+      border-radius: 100%;
+    }

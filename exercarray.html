@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercicio Verificador de idade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Verificador de idade</h1>
+</header>
+<section>
+    <div>
+        <p> Qual o seu nome ?
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>Em que ano nasceu ?
+        
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+        <label for="masc" checked> Masculino </label>
+        <input type="radio" name="radsex" id="fem">
+        
+        <label for="fem" checked> Feminino </label>
+        </p>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+     
+
+    </div>
+   <p> <div id="res">
+...
+    </div></p>
+    
+    <p><div id="res2">
+        
+            </div></p>
+</section>
+<footer>
+    <p> $copy: Exercicio de JS</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
